@@ -2,13 +2,13 @@ let nombre = prompt("Ingresa tu nombre completo")
 let empresa = prompt("Ingrese el nombre de su empresa")
 let area = prompt("Ingrese a que área pertenece")
 
-if (empresa == "Coderhouse") {
+if (empresa === "Coderhouse") {
     console.log("Bienvenido Coder")
 } else {
     console.warn("No tenemos registrada a tu empresa")
 }
 
-if (area == "Marketing") {
+if (area === "Marketing") {
     console.log("La creatividad es tu poder")
 } else {
     console.error("Aún no se crea el espacio cool para tu área, lo reportamos")
