@@ -132,7 +132,11 @@ background-color: #0071ce;
 
 .subtitulo__seccion--4 {
     color: #e63c49;
+    display: flex;
+    align-items: left;
+    margin-left: 3vh;
     font-weight: bold;
+    font-size: 3vh;
 }
 
 .imagenes__soluciones{
@@ -162,7 +166,17 @@ background-color: #0071ce;
 
 }
 
-.listadeeventos {
+.subtitulo__seccion--1 {
+    display: flex;
+    align-items: left;
+    margin-left: 3vh;
+    color: #0071ce;
+    font-weight: bold;
+    font-size: 3vh;
+
+}
+
+.lista {
     align-items: left;
     margin-left: 3vh;
     color: gray;
