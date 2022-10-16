@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*BODY*/
+body{
+    font-family: Poppins;
+    font-size: 15px;
+}
+
+/*Nav*/
+
+.nav{
+position: sticky;
+background-color: #0071ce;
+top: 0;
+z-index: 2;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.nav__logo {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 60px;
+ width: auto;
+}
+
+.nav__links {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.nav__item {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.nav__link {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.nav__link--active {
+font-weight: 900;
+text-decoration: overline;
+border-bottom: 1px solid #f7b644;
+color: white;
+}
+
+.nav__submenu{
+background-color: #0071ce;
+}
+
+/*Body*/
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    color: #0071ce;
+    margin: auto;
+    font-size: 8vh;
+}
+
+.subtituloprincipal {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    margin: auto;
+    padding-top: 3vh;
+    font-size: 5vh;
+}
+
+.boton__iniciarsesion{ 
+    background-color: #f7b644;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 120px;
+    display: flexbox;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;   
+    margin-left: 3vh;
+}
+
+.boton__link {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.espacio {
+    height: 35px;
+}
+
+.espacio--2{
+    height: 80px;
+}
+
+.primera__tarjeta {
+  padding-top: 15vh;
+}
+
+.subtitulo__seccion{
+    color: #e63c49;
+    font-weight: bold;
+}
+
+.parrafo__seccion {
+    color: gray;
+}
+
+.boton__vermas{
+    background-color: #e63c49;
+    border-radius: 20px;
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;  
+}
+
+.subtitulo__seccion--4 {
+    color: #e63c49;
+    font-weight: bold;
+}
+
+.imagenes__soluciones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton__vermas--centro{
+    background-color: #0071ce;
+    border-radius: 20px;
+    height: 50px;
+    width: 120px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.subtitulo__seccion--3 {
+    display: flex;
+    align-items: left;
+    margin-left: 3vh;
+    color: #f7b644;
+    font-weight: bold;
+    font-size: 3vh;
+
+}
+
+.listadeeventos {
+    align-items: left;
+    margin-left: 3vh;
+    color: gray;
+    font-size: 2vh;
+}
+
+.img__logoclientes {
+    margin: auto;
+    display: inline-block;
+    width: 25vh;
+}
+
+.boton__vermas--centro--2 {
+    background-color: #f7b644;
+    border-radius: 20px;
+    height: 50px;
+    width: 120px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+/*página soluciones digitales*/
+.portada__img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+/*footer*/
+footer{
+    background-color: #0071ce;
+    width: 100%;
+}
+
+.footer {
+    position: top;
+    bottom: 0;
+    height: 300px;
+    padding-top: 10px;
+}
+
+.footer__content {
+list-style: none;
+display: inline-block;
+margin-top: 10px;
+color: white;
+margin-right: 40px;
+}
+
+.footer__links {
+    display: list-item;
+}
+
+.footer__item {
+    display: list-item;
+}
+
+.footer__link {
+    text-decoration: none;
+    display: list-item;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    color: white;
+}
+
+.footer__write {
+    text-decoration: none;
+    display: block;
+    position: top;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer_sociallink {
+    text-decoration: none;
+    display: inline-flex;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer__empresa {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    background-color: #0071ce;
+    color: white;
+    padding-top: 25px;
+    
+}
